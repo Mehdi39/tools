@@ -33,7 +33,7 @@ const CBM = () => {
               <label for="cubicFeet">Cubic Feet</label>
             </div>
           </div>
-          <div className="flex flex-col gap-5 my-5">
+          <div className="flex flex-col gap-5 my-5 text-xl">
             <div className="flex justify-between">
               <label for="uom">Unit of Measurement</label>
               <select
@@ -48,19 +48,19 @@ const CBM = () => {
             </div>
             <div className="flex justify-between">
               <label for="len">Length</label>
-              <input type="number" id="len" className="border-2 border-gray-500 px-5"></input>
+              <input type="number" id="len" className="border-2 border-gray-500 px-5 focus:outline-none focus:ring focus:ring-red-200"></input>
             </div>
             <div className="flex justify-between">
               <label for="wid">Width</label>
-              <input type="number" id="wid" className="border-2 border-gray-500 px-5"></input>
+              <input type="number" id="wid" className="border-2 border-gray-500 px-5 focus:outline-none focus:ring focus:ring-red-200"></input>
             </div>
             <div className="flex justify-between">
               <label for="height">Height</label>
-              <input type="number" id="height" className="border-2 border-gray-500 px-5"></input>
+              <input type="number" id="height" className="border-2 border-gray-500 px-5 focus:outline-none focus:ring focus:ring-red-200"></input>
             </div>
             <div className="flex justify-between">
               <label for="quantity">Quantity</label>
-              <input type="number" id="quantity" min="1" onInput={onChange} className="border-2 border-gray-500 px-5"></input>
+              <input type="number" id="quantity" min="1" onInput={onChange} className="border-2 border-gray-500 px-5 focus:outline-none focus:ring focus:ring-red-200"></input>
             </div>
           </div>
           <div>
